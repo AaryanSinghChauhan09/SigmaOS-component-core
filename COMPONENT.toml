@@ -1,0 +1,12 @@
+[component]
+name = "sigmaos-component-core"
+description = "Shared ComponentLifecycle contract + ComponentError for SigmaOS service components"
+version = "0.1.0"
+
+[contract]
+provides = ["ComponentLifecycle", "ComponentError", "ComponentResult"]
+depends_on = []
+
+[maturity]
+level = "stable"
+tested = true
